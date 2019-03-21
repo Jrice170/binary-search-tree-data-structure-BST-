@@ -75,9 +75,10 @@ class MyMap: public Dictionary<K, V>
         void print() const;
 
         int count(const K &key) const;
+        
+        friend TreeNode<MyPair<char, int>> * get_letter_frequency();
 };
 
 #include "MyMap.hpp"
-
 #endif
 
