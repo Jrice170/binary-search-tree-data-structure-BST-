@@ -4,13 +4,8 @@
 
 #include "MyMap.h"
 
-
 int main()
 {
-    std::string my_id[2];
-    get_identity(my_id);
-    std::cout <<  my_id[0] << "-" << my_id[1] << std::endl;
-
     MyMap<int, std::string> map_obj;
 
     map_obj.insert(MyPair<int, std::string>(3, "h"));

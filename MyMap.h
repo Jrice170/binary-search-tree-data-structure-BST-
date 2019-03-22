@@ -10,21 +10,20 @@
 
 using std::cout;
 using std::endl;
+using std::cerr;
+using std::cin;
 
 /*
-Writes to a string array containing: 
-    * the your (the student author’s) Campus Username in lowercase (at index 0)
-    * and Student ID# (at index 1).
-Takes as input a pre-existing length-2 string array.
+* Same as before
 */
-void get_identity(std::string my_id[]);
+void get_identity(std::string &my_id);
       
 
 template <typename K, typename V>
 class MyMap: public Dictionary<K, V>
 {
     private:
-        TreeNode<MyPair<K, V>> *root;
+        TreeNode<MyPair<K, V>> *root = nullptr;
 
         V & at_helper(TreeNode<MyPair<K, V>> *&rt, const K &key);
 
@@ -75,7 +74,11 @@ class MyMap: public Dictionary<K, V>
         void print() const;
 
         int count(const K &key) const;
-        
+
+        // Should accept a text file (for example a book) via std in
+        // Should build a dictionary of the counts of the characters it that book
+        // ./a.out <sample_input.txt should be the form of input
+        // The return value should be a pointer to the root of the tree built from the input
         friend TreeNode<MyPair<char, int>> * get_letter_frequency();
 };
 

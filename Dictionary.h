@@ -30,7 +30,7 @@ class Dictionary
         // Should only update, but not insert
         // Should throw std::out_of_range exception
         virtual V & at(const K &key) = 0;
-    
+
         // Updates or inserts
         virtual V & operator[](const K &key) = 0;
 

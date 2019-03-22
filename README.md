@@ -19,8 +19,9 @@ data structure that will have similar functionality to std::map.
 
 https://en.cppreference.com/w/cpp/container/map
 
-You must submit a file, `MyMap.hpp`, that contains the implementations of your MyMap functions
-and of get_letter_frequency().
+Deliverable: You must submit a file, `MyMap.hpp`, that contains the implementations of 
+1. your MyMap functions and
+2. get_letter_frequency()
 
 Check out the unit testing framework at https://git.mst.edu/taylorpat/simple_cpp_test
 
@@ -32,3 +33,4 @@ https://web.mst.edu/~taylorpat/Courses_files/DataStructures/Content.html
 
 Git commands and a Git cheatsheet are posted at the following link, under the heading "Programming Assignments":
 http://web.mst.edu/~taylorpat/Courses_files/DataStructures/Syllabus.html
+
