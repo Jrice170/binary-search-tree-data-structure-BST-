@@ -58,6 +58,10 @@ int main()
         cout << e.what();
     }
 
+    MyMap<char, int> new_tree;
+    get_letter_frequency(new_tree);
+    new_tree.print();
+
     return 0;
 }
 

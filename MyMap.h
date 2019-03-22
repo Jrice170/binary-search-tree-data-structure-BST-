@@ -78,8 +78,7 @@ class MyMap: public Dictionary<K, V>
         // Should accept a text file (for example a book) via std in
         // Should build a dictionary of the counts of the characters it that book
         // ./a.out <sample_input.txt should be the form of input
-        // The return value should be a pointer to the root of the tree built from the input
-        friend TreeNode<MyPair<char, int>> * get_letter_frequency();
+        void get_letter_frequency(MyMap<char, int> &in_tree);
 };
 
 #include "MyMap.hpp"

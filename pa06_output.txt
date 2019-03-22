@@ -1,30 +1,204 @@
 34 y
 1
 ==== printing tree ====
-         empty
-       154 p
-             empty
-           84 x
-             empty
-         73 w
-           empty
-     54 x
-         empty
-       36 x
-             empty
-           32 x
-             empty
-         5 a
-           empty
-   3 h
-     empty
+         [empty]
+       [154]=p
+             [empty]
+           [84]=x
+             [empty]
+         [73]=w
+           [empty]
+     [54]=x
+         [empty]
+       [36]=x
+             [empty]
+           [32]=x
+             [empty]
+         [5]=a
+           [empty]
+   [3]=h
+     [empty]
 ==== done printing tree ====
 Size is: 8
 Count for 32 is: 1
 
 ==== printing tree ====
-   empty
+   [empty]
 ==== done printing tree ====
 Size is: 0
 Count for 57 is: 0
 MyMap::at
+                   [empty]
+                 [z]=32
+                   [empty]
+               [y]=939
+                     [empty]
+                   [x]=72
+                     [empty]
+                 [w]=877
+                     [empty]
+                   [v]=461
+                     [empty]
+             [u]=1652
+               [empty]
+           [t]=4517
+               [empty]
+             [s]=3303
+               [empty]
+         [r]=2984
+                 [empty]
+               [q]=33
+                 [empty]
+             [p]=931
+               [empty]
+           [o]=3883
+                 [empty]
+               [n]=3580
+                     [empty]
+                   [m]=1143
+                       [empty]
+                     [l]=1937
+                       [empty]
+                 [k]=311
+                   [empty]
+             [j]=128
+                 [empty]
+               [i]=3624
+                 [empty]
+       [h]=2737
+             [empty]
+           [g]=1005
+               [empty]
+             [f]=1239
+               [empty]
+         [e]=5776
+               [empty]
+             [d]=1836
+               [empty]
+           [c]=1660
+               [empty]
+             [b]=699
+                 [empty]
+               [a]=3571
+                         [empty]
+                       [_]=64
+                         [empty]
+                     []]=1
+                       [empty]
+                   [[]=1
+                     [empty]
+                 [Y]=44
+                           [empty]
+                         [X]=2
+                           [empty]
+                       [W]=27
+                         [empty]
+                     [V]=21
+                       [empty]
+                   [U]=61
+                     [empty]
+     [T]=231
+               [empty]
+             [S]=111
+               [empty]
+           [R]=86
+               [empty]
+             [Q]=1
+               [empty]
+         [P]=123
+                 [empty]
+               [O]=98
+                   [empty]
+                 [N]=102
+                   [empty]
+             [M]=55
+                   [empty]
+                 [L]=78
+                     [empty]
+                   [K]=15
+                     [empty]
+               [J]=11
+                     [empty]
+                   [I]=158
+                     [empty]
+                 [H]=117
+                   [empty]
+           [G]=127
+                 [empty]
+               [F]=81
+                 [empty]
+             [E]=178
+                   [empty]
+                 [D]=66
+                     [empty]
+                   [C]=73
+                     [empty]
+               [B]=59
+                   [empty]
+                 [A]=173
+                               [empty]
+                             [@]=2
+                               [empty]
+                           [?]=5
+                             [empty]
+                         [;]=104
+                           [empty]
+                       [:]=41
+                             [empty]
+                           [9]=10
+                             [empty]
+                         [8]=10
+                                   [empty]
+                                 [7]=11
+                                     [empty]
+                                   [6]=7
+                                     [empty]
+                               [5]=17
+                                 [empty]
+                             [4]=14
+                                 [empty]
+                               [3]=13
+                                 [empty]
+                           [2]=13
+                                 [empty]
+                               [1]=56
+                                 [empty]
+                             [0]=28
+                                 [empty]
+                               [/]=26
+                                 [empty]
+                     [.]=497
+                         [empty]
+                       [-]=150
+                         [empty]
+                   [,]=784
+                         [empty]
+                       [*]=28
+                             [empty]
+                           [)]=28
+                             [empty]
+                         [(]=28
+                             [empty]
+                           [']=25
+                               [empty]
+                             [%]=1
+                                 [empty]
+                               [$]=2
+                                 [empty]
+                     [#]=1
+                         [empty]
+                       ["]=73
+                           [empty]
+                         [!]=8
+                           [empty]
+       [ ]=9807
+           [empty]
+         [
+]=1340
+           [empty]
+   [ï]=1
+         [empty]
+       [¿]=1
+         [empty]
+     [»]=1
+       [empty]
