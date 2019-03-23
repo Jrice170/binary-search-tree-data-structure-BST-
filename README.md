@@ -3,13 +3,14 @@ Programming assignment 6 (PA06)
 
 ## Assignment Description
 
-![matrix](tank_matrix.jpg)
 
 Help Tank find Morpheus and the others in The Matrix by creating a dictionary to automate the deciphering of known symbols in code! 
 
-![thecode](ascii.png)
+![matrix](tank_matrix.jpg)
 
 Real world matrix: Why does sorting characters work in a BST? What would the binary encoding of your text file look like? 
+
+![thecode](ascii.png)
 
 Your task is to write a function, get_letter_frequency(), that accepts an 
 arbitrary number of characters from standard input and builds a MyMap containing the
