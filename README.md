@@ -14,7 +14,7 @@ Real world matrix: Why does sorting characters work in a BST? What would the bin
 
 Your tasks are:
 
-1. To write the MyMap functions
+1. to write the MyMap functions
 
 2. to write a function, get_letter_frequency(), that accepts an 
 arbitrary number of characters from standard input and builds a MyMap containing the
