@@ -2,8 +2,6 @@ Programming assignment 6 (PA06)
 ==============================
 
 ## Assignment Description
-
-
 Help Tank find Morpheus and the others in The Matrix by creating a dictionary to automate the deciphering of known symbols in code! 
 
 ![matrix](tank_matrix.jpg)
