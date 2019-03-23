@@ -18,16 +18,19 @@ data structure that will have similar functionality to std::map.
 https://en.cppreference.com/w/cpp/container/map
 
 Deliverable: You must submit a file, `MyMap.hpp`, that contains the implementations of 
-1. your MyMap functions and
+1. all of your MyMap functions and
 2. get_letter_frequency()
+3. your name function
 
-For those in the data structures lab, Check out the unit testing framework at 
+For those in the data structures lab, check out the unit testing framework at 
 https://git.mst.edu/taylorpat/simple_cpp_test
 
 The files listed here are the starting point for your assignment. 
 Only add source files (not compiled files) to the Git repository.
 
-Remember, the assignment due date is posted on the course website:
+Remember, the assignment due date is posted on the course website.
 
-Git commands and a Git cheatsheet are posted at the following link, under the heading "Programming Assignments":
+READ: actually read the submission checklist on the syllabus page of the website!
+
+Git commands and a Git cheatsheet are posted at the following link, under the heading "Programming Assignments".
 
