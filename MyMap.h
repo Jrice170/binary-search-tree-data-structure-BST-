@@ -13,6 +13,7 @@ using std::endl;
 using std::cerr;
 using std::cin;
 
+
 /*
 * Same as before
 */
@@ -74,12 +75,15 @@ class MyMap: public Dictionary<K, V>
         void print() const;
 
         int count(const K &key) const;
-
-        // Should accept a text file (for example a book) via std in
-        // Should build a dictionary of the counts of the characters it that book
-        // ./a.out <sample_input.txt should be the form of input
-        void get_letter_frequency(MyMap<char, int> &in_tree);
 };
+
+
+// Should accept a text file (for example a book) via std in
+// Should build a dictionary of the counts of the characters it that book
+// Do not add newlines (\n) to the dictionary (they'll mess up print)
+// ./a.out <sample_input.txt should be the form of input
+void get_letter_frequency(MyMap<char, int> &in_tree);
+
 
 #include "MyMap.hpp"
 #endif
