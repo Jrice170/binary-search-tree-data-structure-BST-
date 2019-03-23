@@ -12,7 +12,11 @@ Real world matrix: Why does sorting characters work in a BST? What would the bin
 
 ![thecode](ascii.png)
 
-Your task is to write a function, get_letter_frequency(), that accepts an 
+Your tasks are:
+
+1. To write the MyMap functions
+
+2. is to write a function, get_letter_frequency(), that accepts an 
 arbitrary number of characters from standard input and builds a MyMap containing the
 number of occurrences for each character in the input, i.e., if the letter 'a' occurs
 43 times in the input, map['a'] should return 43.
