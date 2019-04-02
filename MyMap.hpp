@@ -44,7 +44,6 @@ MyMap<K, V> & MyMap<K,V>::operator=(const MyMap<K, V> & source)
       root = Fake_node;
       return *this;
 
-
     }
 
 
@@ -150,7 +149,7 @@ void MyMap<K,V>::print()const
 {
 
 
-    print_helper(root,"");
+    print_helper(root," ");
 
 
 }
@@ -460,45 +459,24 @@ void MyMap<K, V>::erase_helper(TreeNode<MyPair<K, V>> *&rt, const K &key)
           }
 
 
-
-
-
-
-
-
-
-
 }
 template <typename K, typename V>
 MyPair<K, V> * MyMap<K,V>::find_helper(TreeNode<MyPair<K, V>> *rt, const K &key) const
 {
-    if(rt == nullptr || rt->data.first == key)
+
+    if(rt == nullptr)
+      return nullptr;
+
+    if(key < rt->data.first)
     {
-      if(rt->data.first == key)
-      {
-        MyPair<K, V> *  Pointer = new MyPair<K,V>(rt->data.first,rt->data.second);
-        return Pointer;
-
-      }
-      else
-      {
-
-        return nullptr;
-
-      }
-
-    }
-    else if(key < rt->data.first)
-    {
-
         return find_helper(rt->left,key);
-
     }
     else if(key > rt->data.first)
     {
         return find_helper(rt->right,key);
 
     }
+    return &rt->data;
 
 }
 template <typename K, typename V>
@@ -507,15 +485,16 @@ void MyMap<K,V>::print_helper(TreeNode<MyPair<K, V>> *rt, std::string indent) co
 
     if(rt == nullptr)
     {
-        cout<<indent<<"[empty]"<<endl;
+        cout<<indent<<"  [empty]"<<endl;
         return;
 
     }
     //cout<<rt->data.first<<endl;
-    print_helper(rt->right,indent+" ");
+    print_helper(rt->right,indent+=" ");
 
-    cout<<indent<<rt->data.first<<endl;
-    print_helper(rt->left,indent+" ");
+    cout<<indent<<"["<<rt->data.first<<"]="<<rt->data.second<<endl;
+
+    print_helper(rt->left,indent);
 
 
 
@@ -564,6 +543,6 @@ TreeNode<MyPair<K, V>> * MyMap<K,V>::clone(const TreeNode<MyPair<K, V>> *  rt)
 void get_letter_frequency(MyMap<char, int> &in_tree)
 {
 
-    in_tree.print();
+    //in_tree.print();
 
 }
