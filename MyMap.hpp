@@ -2,6 +2,7 @@
 
 #include "MyMap.h"
 
+
 /// MyMap defult constructor
 
 void get_identity(std::string & my_id)
@@ -122,8 +123,22 @@ template <typename K, typename V>
 void MyMap<K,V>::insert(const MyPair<K, V> &init_pair)
 {
 
+    K key = init_pair.first;
+    if(count(key)>0)
+    {
+        at(key) = init_pair.second;
 
-    insert_helper(root,init_pair);
+
+    }
+    else
+    {
+
+      insert_helper(root,init_pair);
+
+
+    }
+
+
 
 
 }
@@ -257,7 +272,7 @@ void MyMap<K, V>::insert_helper(TreeNode<MyPair<K, V>> *& rt,const MyPair<K, V> 
             insert_helper(rt->left,init_pair);
 
         }
-        else /// else go right
+        else
         {
 
             insert_helper(rt->right,init_pair);
@@ -543,6 +558,5 @@ TreeNode<MyPair<K, V>> * MyMap<K,V>::clone(const TreeNode<MyPair<K, V>> *  rt)
 void get_letter_frequency(MyMap<char, int> &in_tree)
 {
 
-    //in_tree.print();
 
 }
