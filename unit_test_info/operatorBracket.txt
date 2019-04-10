@@ -1,0 +1,3 @@
+Builds a tree by inserting arbitrary values into an empty student-implemented MyMap one by one using operatorBracket.  If at any point the resulting tree is incorrect (is of the wrong form or has incorrect keys/values), the unit test is failed.
+
+Afterwards, tests lookup functionality by checking the result of student-implemented operatorBracket function for several of the inserted values.  If a single value is incorrect, the unit test is failed.

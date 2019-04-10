@@ -1,0 +1,71 @@
+1,2d0
+<       [empty]
+<     [154]=p
+4c2,14
+<        [97]=w
+---
+>        [154]=p
+>                [empty]
+>              [97]=w
+>                [empty]
+>            [84]=x
+>                  [empty]
+>                [77]=w
+>                  [empty]
+>              [74]=w
+>                [empty]
+>          [73]=w
+>            [empty]
+>      [54]=x
+6,10c16
+<       [84]=x
+<           [empty]
+<         [77]=w
+<           [empty]
+<        [74]=w
+---
+>        [36]=x
+12,26c18
+<      [73]=w
+<        [empty]
+<    [54]=x
+<       [empty]
+<     [36]=x
+<       [empty]
+<   [34]=x
+<       [empty]
+<     [32]=x
+<         [empty]
+<       [22]=w
+<           [empty]
+<         [16]=w
+<           [empty]
+<        [12]=w
+---
+>    [34]=x
+28,35c20,35
+<      [7]=w
+<        [empty]
+<    [5]=a
+<       [empty]
+<     [2]=a
+<        [empty]
+<      [1]=w
+<        [empty]
+---
+>        [32]=x
+>              [empty]
+>            [22]=w
+>                  [empty]
+>                [16]=w
+>                  [empty]
+>              [12]=w
+>                [empty]
+>          [7]=w
+>            [empty]
+>      [5]=a
+>          [empty]
+>        [2]=a
+>            [empty]
+>          [1]=w
+>            [empty]

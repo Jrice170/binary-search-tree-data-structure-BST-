@@ -1,0 +1,1 @@
+Creates a valid (nonempty) tree, sets student's root pointer to the root of the valid tree, and checks that .size() returns the number of elements in the tree.

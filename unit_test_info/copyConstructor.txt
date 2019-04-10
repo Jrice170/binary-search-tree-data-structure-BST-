@@ -1,0 +1,1 @@
+Uses student-implemented copy constructor to create a MyMap based on a valid tree, and then ensures the resulting tree is equivalent to the original.  If the resulting tree is incorrect (is of the wrong form or has incorrect keys/values), the unit test is failed.

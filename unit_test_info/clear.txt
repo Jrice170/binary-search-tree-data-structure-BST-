@@ -1,0 +1,1 @@
+Creates a valid tree, sets student's root pointer to the root of the valid tree, and calls the .clear() function.  If the result is not an emtpy tree, the unit test is failed.

@@ -1,0 +1,1 @@
+Builds a tree by inserting arbitrary values into an empty student-implemented MyMap one by one.  If at any point the resulting tree is incorrect (is of the wrong form or has incorrect keys/values), the unit test is failed.

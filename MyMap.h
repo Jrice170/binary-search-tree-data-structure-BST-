@@ -75,6 +75,8 @@ class MyMap: public Dictionary<K, V>
         void print() const;
 
         int count(const K &key) const;
+
+        friend int main(); // added for unit test purposes
 };
 
 

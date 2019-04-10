@@ -1,0 +1,1 @@
+Creates an empty student-implemented MyMap, passes it to student-implemented get_letter_frequency, and checks the resulting tree for structural and key/value equivalence to the solution tree.

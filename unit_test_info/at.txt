@@ -1,0 +1,3 @@
+Creates a valid tree, sets student's root pointer to the root of the valid tree, and checks the result of student-implemented .at(j) function for all j in some arbitrary sequence.
+
+If the student-implemented function returns the wrong result for any j that was tested, the unit test is failed.
